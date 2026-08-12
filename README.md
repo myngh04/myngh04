@@ -2,7 +2,7 @@
 
 # Nguyen Gia Huy
 
-### Backend Developer · Java & Spring Boot
+### Backend Developer · Spring Boot
 
 <p>
   <img src="https://skillicons.dev/icons?i=java,spring,postgresql,hibernate,maven,git,github,html,css,js&perline=10" alt="Java, Spring Boot, PostgreSQL, Hibernate, Maven, Git, GitHub, HTML, CSS, JavaScript" />

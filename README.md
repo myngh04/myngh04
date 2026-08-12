@@ -1,6 +1,6 @@
 <div align="center">
 
-# Nguyễn Gia Huy
+# Nguyen Gia Huy
 
 ### Backend Developer · Java & Spring Boot
 
@@ -30,28 +30,12 @@ I'm a backend-focused developer building practical systems with Java and Spring 
 
 A server-rendered marketplace for game accounts and items.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>🛒 Guest-to-user cart</h4>
-      Visitors can add items before signing in. After login, the guest cart merges into their account.
-    </td>
-    <td width="50%" valign="top">
-      <h4>🔒 Safe inventory flow</h4>
-      Inventory is treated as unique stock and locked during checkout to prevent conflicting purchases.
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>📦 Order lifecycle</h4>
-      Checkout reserves available inventory. Cancelling a pending order releases it again.
-    </td>
-    <td width="50%" valign="top">
-      <h4>👤 Account experience</h4>
-      Profile and progressive order-history flows avoid unnecessary page jumps.
-    </td>
-  </tr>
-</table>
+| Feature | Details |
+| :-- | :-- |
+| 🛒 **Guest-to-user cart** | Visitors can add items before signing in. After login, the guest cart merges into their account. |
+| 🔒 **Safe inventory flow** | Inventory is treated as unique stock and locked during checkout to prevent conflicting purchases. |
+| 📦 **Order lifecycle** | Checkout reserves available inventory. Cancelling a pending order releases it again. |
+| 👤 **Account experience** | Profile and progressive order-history flows avoid unnecessary page jumps. |
 
 ## Toolbox
 
@@ -67,9 +51,9 @@ A server-rendered marketplace for game accounts and items.
 ## Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/myngh04/myngh04/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/myngh04/myngh04/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/myngh04/myngh04/output/github-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake.svg" />
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake.svg" />
 </picture>
 
 <div align="center">

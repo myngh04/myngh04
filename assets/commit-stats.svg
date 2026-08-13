@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" role="img" aria-labelledby="title description">
+  <title id="title">MonoMarket commit breakdown</title>
+  <desc id="description">Distribution of recognized Conventional Commit types in non-merge MonoMarket commits.</desc>
+  <style>
+    .title { fill: #24292f; font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .meta { fill: #57606a; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .label { fill: #24292f; font: 600 13px ui-monospace, SFMono-Regular, Menlo, monospace; }
+    .value { fill: #57606a; font: 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    .track { fill: #d0d7de; opacity: .55; }
+    .bar { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      .title, .label { fill: #f0f6fc; }
+      .meta, .value { fill: #8b949e; }
+      .track { fill: #30363d; }
+      .bar { fill: #58a6ff; }
+    }
+  </style>
+  <a href="https://github.com/myngh04/monomarket">
+    <text class="title" x="24" y="32">MonoMarket · Commit Breakdown</text>
+    <text class="meta" x="24" y="53">72 classified non-merge commits</text>
+    <text class="label" x="100" y="87" text-anchor="end">feat</text><rect class="track" x="114" y="75" width="410" height="16" rx="4" /><rect class="bar" x="114" y="75" width="410" height="16" rx="4" /><text class="value" x="538" y="87">45 · 62.5%</text><text class="label" x="100" y="122" text-anchor="end">fix</text><rect class="track" x="114" y="110" width="410" height="16" rx="4" /><rect class="bar" x="114" y="110" width="100" height="16" rx="4" /><text class="value" x="538" y="122">11 · 15.3%</text><text class="label" x="100" y="157" text-anchor="end">refactor</text><rect class="track" x="114" y="145" width="410" height="16" rx="4" /><rect class="bar" x="114" y="145" width="36" height="16" rx="4" /><text class="value" x="538" y="157">4 · 5.6%</text><text class="label" x="100" y="192" text-anchor="end">test</text><rect class="track" x="114" y="180" width="410" height="16" rx="4" /><rect class="bar" x="114" y="180" width="36" height="16" rx="4" /><text class="value" x="538" y="192">4 · 5.6%</text><text class="label" x="100" y="227" text-anchor="end">chore</text><rect class="track" x="114" y="215" width="410" height="16" rx="4" /><rect class="bar" x="114" y="215" width="27" height="16" rx="4" /><text class="value" x="538" y="227">3 · 4.2%</text><text class="label" x="100" y="262" text-anchor="end">docs</text><rect class="track" x="114" y="250" width="410" height="16" rx="4" /><rect class="bar" x="114" y="250" width="27" height="16" rx="4" /><text class="value" x="538" y="262">3 · 4.2%</text><text class="label" x="100" y="297" text-anchor="end">build</text><rect class="track" x="114" y="285" width="410" height="16" rx="4" /><rect class="bar" x="114" y="285" width="9" height="16" rx="4" /><text class="value" x="538" y="297">1 · 1.4%</text><text class="label" x="100" y="332" text-anchor="end">ci</text><rect class="track" x="114" y="320" width="410" height="16" rx="4" /><rect class="bar" x="114" y="320" width="9" height="16" rx="4" /><text class="value" x="538" y="332">1 · 1.4%</text>
+    
+  </a>
+</svg>

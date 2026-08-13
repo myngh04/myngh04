@@ -2,62 +2,69 @@
 
 # Nguyen Gia Huy
 
-### Backend Developer · Spring Boot
+### Backend-focused IT Student · Java / Spring Boot
 
 <p>
-  <img src="https://skillicons.dev/icons?i=java,spring,postgresql,hibernate,maven,git,github,html,css,js&perline=10" alt="Java, Spring Boot, PostgreSQL, Hibernate, Maven, Git, GitHub, HTML, CSS, JavaScript" />
+  <img src="https://skillicons.dev/icons?i=java,spring,postgresql,hibernate,maven,docker,githubactions,git,github,swagger,html,css,js&perline=13" alt="Java, Spring Boot, PostgreSQL, Hibernate, Maven, Docker, GitHub Actions, Git, GitHub, Swagger, HTML, CSS, JavaScript" />
 </p>
 
 </div>
 
-<br />
-
 ```java
 public class NguyenGiaHuy {
-    private final String focus = "Backend engineering";
-    private final String currentlyBuilding = "MonoMarket";
-    private final String mindset = "Build it carefully. Learn from real edge cases.";
+    String focus = "Backend Engineering";
+    String university = "UIT - VNUHCM";
+    String mainStack = "Java / Spring Boot / PostgreSQL";
+    String building = "MonoMarket";
+    String direction = "Software Engineering in Japan";
 }
 ```
 
 ## About me
 
-I'm a backend-focused developer building practical systems with Java and Spring Boot. I care about the parts users may not see immediately: authentication, cart persistence, transaction safety, inventory consistency, and clear business rules.
+I am an IT student at the University of Information Technology, VNU-HCM (UIT), with backend development as my main direction. Java, Spring Boot, and PostgreSQL are the stack I use most while building MonoMarket.
+
+I am interested in what happens below an endpoint: relational database state, transactions, consistency, tests, containers, and deployment. When a feature fails, I usually trace the logs and database state before changing the design.
+
+I am also studying Japanese for future software engineering opportunities in Japan.
+
+**Languages:** Vietnamese — Native · English — IELTS 7.0 · Japanese — Currently studying toward professional use
 
 ## Featured project
 
-### [🎮 MonoMarket](https://github.com/myngh04/monomarket)
+<div align="center">
+  <a href="https://github.com/myngh04/monomarket">
+    <img src="./assets/monomarket-logo.png" alt="MonoMarket logo" width="500" />
+  </a>
+</div>
 
-A server-rendered marketplace for game accounts and items.
+MonoMarket is a server-rendered second-hand e-commerce platform inspired by Japanese reuse stores. It uses Spring Boot, Spring MVC, Thymeleaf, PostgreSQL, Hibernate/JPA, Spring Security, Flyway, Maven, Docker Compose, GitHub Actions, MockMvc, Mockito, H2, and Swagger/OpenAPI.
 
-| Feature | Details |
-| :-- | :-- |
-| 🛒 **Guest-to-user cart** | Visitors can add items before signing in. After login, the guest cart merges into their account. |
-| 🔒 **Safe inventory flow** | Inventory is treated as unique stock and locked during checkout to prevent conflicting purchases. |
-| 📦 **Order lifecycle** | Checkout reserves available inventory. Cancelling a pending order releases it again. |
-| 👤 **Account experience** | Profile and progressive order-history flows avoid unnecessary page jumps. |
+| Engineering area     | Implementation focus                                                                                       |
+| :------------------- | :--------------------------------------------------------------------------------------------------------- |
+| Cart state           | Guest carts merge into the authenticated user's cart after login.                                          |
+| Inventory and orders | Serialized inventory represents unique stock; checkout and cancellation keep reservation state consistent. |
+| Database             | PostgreSQL schema changes are versioned with Flyway migrations and modeled through relational entities.    |
+| Testing              | Spring Boot tests use MockMvc, Mockito, and H2 to exercise web and application behavior.                   |
+| Local delivery       | Docker and Docker Compose run the application with PostgreSQL; GitHub Actions runs Maven verification.     |
+| Web architecture     | Spring MVC and Thymeleaf keep the customer flow server-rendered.                                           |
 
 ## Toolbox
 
-<p>
-  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Thymeleaf-005F0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf" />
-  <img src="https://img.shields.io/badge/Flyway-CC0200?style=for-the-badge&logo=flyway&logoColor=white" alt="Flyway" />
-</p>
-
-## Contribution graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake.svg" />
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/myngh04/myngh4/output/github-snake.svg" />
-</picture>
-
 <div align="center">
 
-**Building one feature at a time — and learning from every edge case.**
+|      IDE / Editor       | Database | API testing | Containers | AI-assisted development | Version control |
+| :---------------------: | :------: | :---------: | :--------: | :---------------------: | :-------------: |
+| IntelliJ IDEA · VS Code | DBeaver  |   Postman   |   Docker   |          Codex          |       Git       |
 
 </div>
+
+## Engineering activity
+
+<div align="center">
+  <a href="https://github.com/myngh04/monomarket">
+    <img src="./assets/commit-stats.svg" alt="MonoMarket commit breakdown by Conventional Commit type" width="760" />
+  </a>
+</div>
+
+<sub>Generated from non-merge MonoMarket commit subjects. Only recognized Conventional Commit types are included.</sub>

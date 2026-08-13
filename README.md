@@ -4,8 +4,10 @@
 
 ### Backend-focused IT Student · Java / Spring Boot
 
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 <p>
-  <img src="https://skillicons.dev/icons?i=java,spring,postgresql,hibernate,maven,docker,githubactions,git,github,swagger,html,css,js&perline=13" alt="Java, Spring Boot, PostgreSQL, Hibernate, Maven, Docker, GitHub Actions, Git, GitHub, Swagger, HTML, CSS, JavaScript" />
+  <img src="https://skillicons.dev/icons?i=java,spring,postgresql,docker,git,github,html,css,js&perline=13" alt="Java, Spring Boot, PostgreSQL, Docker, GitHub Actions, Git, GitHub, Swagger, HTML, CSS, JavaScript" />
 </p>
 
 </div>
@@ -28,13 +30,13 @@ I am interested in what happens below an endpoint: relational database state, tr
 
 I am also studying Japanese for future software engineering opportunities in Japan.
 
-**Languages:** Vietnamese — Native · English — IELTS 7.0 · Japanese — Currently studying toward professional use
+_Languages:_ Vietnamese — Native · English — IELTS 7.0 · Japanese — Studying toward business use
 
 ## Featured project
 
 <div align="center">
   <a href="https://github.com/myngh04/monomarket">
-    <img src="./assets/monomarket-logo.png" alt="MonoMarket logo" width="500" />
+    <img src="./assets/monomarket-logo-transparent.png" alt="monomarket-logo.png" width="550" />
   </a>
 </div>
 
